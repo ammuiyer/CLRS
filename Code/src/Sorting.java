@@ -16,7 +16,8 @@ public class Sorting {
 			while(i>=0 && a[i]>key) {
 				a[i+1] = a[i];
 				a[i] = key;
-				i--;			
+				i--;	
+				
 				}
 			//System.out.println(Arrays.toString(a));
 			
