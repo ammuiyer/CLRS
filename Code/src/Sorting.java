@@ -14,6 +14,7 @@ public class Sorting {
 			int key = a[j];
 			int i = j-1;
 			while(i>=0 && a[i]>key) {
+				
 				a[i+1] = a[i];
 				a[i] = key;
 				i--;	
